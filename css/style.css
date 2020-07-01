@@ -1,0 +1,149 @@
+*{
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Manrope', Arial, Helvetica, sans-serif;
+	margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.botao {
+	background-color: #fff;
+	color: #7E459B;
+	border-radius: 10px;
+	text-transform: uppercase;
+	padding: 5px 10px;
+	font-weight: bold;
+}
+
+.botao:hover {
+	background-color: #7E459B;
+  	color: #fff;
+  	opacity: 70%;
+  	transition: .5s;
+}
+
+.banner {
+	background: url(../img/banner.jpg) center no-repeat;
+	background-size:cover;
+	height: 560px;
+	display: flex;
+	justify-content: left;
+	align-items: baseline;
+}
+
+.banner__conteudo {
+	color: #fff;
+	text-align: center;
+	margin: 10%;
+}
+
+.banner__titulo {
+	font-size: 42px;
+	justify-content: center;
+}
+
+.section {
+	margin: 5% 10%
+}
+
+.section__titulo {
+	color: #C4C4C3;
+	font-size: 36px;
+	justify-content: center;
+}
+
+.sobre {
+	display: flex;	
+	align-items: flex-start;
+	font-size: 16px;
+	font-weight: lighter;
+}
+
+.sobre__texto {
+	width: 50%;
+	margin-right:100px;
+	text-align: justify;
+}
+
+.sobre__texto-principal {
+	font-size: 20px;
+}
+
+.sobre__CV {
+	border: 1px solid #7E459B;
+}
+
+.sobre-habilidades__titulo{
+	color: #C4C4C3;
+}
+
+.sobre-habilidades__lista{
+	font-size: 14px;
+	list-style-type: circle;
+	margin: 0;
+	padding: 0px 20px;
+	border: none;
+}
+
+.footer {
+	margin: 5% 15%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.redes-sociais {
+	display: flex;
+}
+ 
+.redes-sociais__link {
+	margin: 20px;
+	background-color: #7E459B;
+	color: #fff;
+	font-size: 11px;
+	line-height: 5px;
+	text-align: center;
+	padding: 10px 10px;
+	width: 100px;
+	height: 100px;
+}
+
+.redes-sociais__link img {
+	height: 40px;
+}
+
+.redes-sociais__link:hover {
+	background-color: #C4C4C3;
+	color: #7E459B;
+	opacity: 70%;
+	transform: scale(1.2);
+	transition: .5s;
+}
+
+.copyright {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px 50px;
+	position: fixed;
+  	left: 0;
+  	bottom: 0;
+ 	width: 100%;
+  	background-color: #C4C4C3;
+	color: #fff;
+	font-size: 12px;
+	text-align: center;
+}
+
+.link-topo:link, .link-topo:visited {
+	color: #fff;
+}
+
+.link-topo:hover, .link-topo:active {
+	color: #7E459B;
+}
